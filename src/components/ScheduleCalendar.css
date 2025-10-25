@@ -1,0 +1,17 @@
+.schedule-calendar {
+  margin: 32px 0;
+  background: var(--color-light);
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.schedule-calendar h2 {
+  color: var(--color-primary);
+  margin-bottom: 16px;
+}
+
+.event-grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "name": "John Doe",
+    "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cG9ydHJhaXR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500",
+    "message": "I was lost in confusion until I found peace through Christ here. My life completely changed for the better."
+  },
+  {
+    "name": "Mary Okafor",
+    "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cG9ydHJhaXR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500",
+    "message": "This church has been my family. The prayers and love I received restored my faith in God’s power."
+  },
+  {
+    "name": "Samuel Adeyemi",
+    "image": "https://plus.unsplash.com/premium_photo-1682096252599-e8536cd97d2b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cG9ydHJhaXR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500",
+    "message": "After joining the weekly fellowship, I experienced healing I had prayed for years. Glory to God!"
+  },
+  {
+    "name": "Grace Umeh",
+    "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cG9ydHJhaXR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500",
+    "message": "Through the women's ministry, I found strength and support that transformed my home and faith."
+  },
+  {
+    "name": "Daniel Smith",
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fHBvcnRyYWl0fGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500",
+    "message": "The teachings here helped me overcome addiction. I am now free and living a purpose-driven life."
+  },
+  {
+    "name": "Linda Johnson",
+    "image": "https://images.unsplash.com/photo-1614204424926-196a80bf0be8?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHBvcnRyYWl0fGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500 ",
+    "message": "Joining this community brought me closer to God. The love and fellowship are truly life-changing."
+  },
+  {
+    "name": "Alice Brown",
+    "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBvcnRyYWl0fGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500",
+    "message": "The youth programs here helped me find my path in life. I am now confident and focused on my goals."
+  },
+  {
+    "name": "Michael Green",
+    "image": "https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzh8fHBvcnRyYWl0fGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500",
+    "message": "I experienced a miracle when I least expected it. This church is a beacon of hope and faith."
+  },
+  {
+    "name": "Sophia Lee",
+    "image": "https://images.unsplash.com/photo-1539614474468-f423a2d2270c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fHBvcnRyYWl0fGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500",
+    "message": "The sermons here are powerful and inspiring. They have helped me grow spiritually and emotionally."
+  },
+  {
+    "name": "James Wilson",
+    "image": "https://images.unsplash.com/photo-1522556189639-b150ed9c4330?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHBvcnRyYWl0fGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500",
+    "message": "I found true friendship and support in this church. It has been a blessing to be part of this family."
+  }
+]
