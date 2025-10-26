@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "./theme.css";
 import { FaBars } from "react-icons/fa";
 import { useScroll } from "../context/ScrollContext";
+import logo from"src/assets/1000092052.png"
 
 // import "./navbar.css";
 
@@ -51,7 +52,7 @@ scrollToTop()
         <div className="container">
           <div className="logo">
             <div className="logo-img">
-              <img src="/src/assets/1000092052.png" alt="church logo" />
+              <img src={logo} alt="church logo" />
             </div>
             {/* <h1 className="logo-name">TACN Yaba District</h1> */}
           </div>
