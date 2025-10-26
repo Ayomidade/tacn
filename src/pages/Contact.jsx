@@ -1,6 +1,7 @@
 import React from "react";
 import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa";
 import Header from "../components/Header";
+import background from "../assets/nir-himi-lfXq-zbF-RU-unsplash.jpg";
 
 const Home = () => {
   return (
@@ -8,7 +9,7 @@ const Home = () => {
       <Header
         title={"Contact Us"}
         subtitle={"We’d love to hear from you. Reach out to us anytime!"}
-        background={"src/assets/nir-himi-lfXq-zbF-RU-unsplash.jpg"}
+        background={background}
       />
 
       <section className="contact">
