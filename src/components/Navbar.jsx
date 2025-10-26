@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./theme.css";
 import { FaBars } from "react-icons/fa";
 import { useScroll } from "../context/ScrollContext";
-import logo from"src/assets/1000092052.png"
+import logo from "../assets/1000092052.png";
 
 // import "./navbar.css";
 
