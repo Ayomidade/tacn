@@ -1,0 +1,23 @@
+[
+  {
+    "image": "/images/event1.jpg",
+    "title": "Annual Tech Conference",
+    "date": "2025-11-20",
+    "location": "New York, NY",
+    "description": "Join us for a day of insightful talks and networking with industry leaders in technology."
+  },
+  {
+    "image": "/images/event2.jpg",
+    "title": "Marketing Summit 2025",
+    "date": "2025-11-21",
+    "location": "San Francisco, CA",
+    "description": "A gathering of marketing professionals to discuss the latest trends and strategies in the field."
+  },
+  {
+    "image": "/images/event3.jpg",
+    "title": "Healthcare Innovations Expo",
+    "date": "2025-11-22",
+    "location": "Chicago, IL",
+    "description": "Explore the latest innovations in healthcare technology and services at this annual expo."
+  }
+]

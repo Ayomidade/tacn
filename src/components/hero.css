@@ -2,7 +2,7 @@
   position: relative;
   height: auto;
   background: url("/src/assets/church.jpg") center/cover no-repeat;
-  background-color: rgba(0, 0, 0, 0.397);
+  background-color: rgba(0, 0, 0, 0.233);
   background-blend-mode: darken;
   display: flex;
   align-items: center;

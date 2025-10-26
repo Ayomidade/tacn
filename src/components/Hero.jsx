@@ -65,7 +65,7 @@ const Hero = () => {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://www.youtube.com/@TACNYabaAssembly"
+                  href="https://www.youtube.com/@tacnyabadistrictpr"
                 >
                   <FaYoutube />
                   <br />

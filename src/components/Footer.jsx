@@ -57,7 +57,7 @@ const Footer = () => {
                 <FaInstagram />
               </a>
               <a
-                href="https://youtube.com/@TACNYabaAssembly"
+                href="https://www.youtube.com/@tacnyabadistrictpr"
                 target="_blank"
                 rel="noopener noreferrer"
               >
