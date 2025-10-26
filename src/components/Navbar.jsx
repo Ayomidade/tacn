@@ -51,7 +51,7 @@ scrollToTop()
         <div className="container">
           <div className="logo">
             <div className="logo-img">
-              <img src="src/assets/1000092052.png" alt="church logo" />
+              <img src="/src/assets/1000092052.png" alt="church logo" />
             </div>
             {/* <h1 className="logo-name">TACN Yaba District</h1> */}
           </div>

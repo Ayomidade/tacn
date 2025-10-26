@@ -5,7 +5,7 @@
   justify-content: center;
   background-color: var(--color-primary);
   background-size: cover;
-  /* background-position: center; */
+  background-position: center;
   color: var(--color-light);
 
 }
@@ -14,7 +14,7 @@
   background: rgba(0, 11, 41, 0.7);
   /* dark overlay */
   text-align: center;
-  width: 95%;
+  width: 100%;
   padding: 15px;
   animation: fadeSlideUp 1s ease-out forwards;
 }

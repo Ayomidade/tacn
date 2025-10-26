@@ -8,7 +8,7 @@ const Home = () => {
       <Header
         title={"Contact Us"}
         subtitle={"We’d love to hear from you. Reach out to us anytime!"}
-        background={"/src/assets/nir-himi-lfXq-zbF-RU-unsplash.jpg"}
+        background={"src/assets/nir-himi-lfXq-zbF-RU-unsplash.jpg"}
       />
 
       <section className="contact">
