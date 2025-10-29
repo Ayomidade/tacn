@@ -15,7 +15,19 @@
 }
 
 .event-card:hover {
-  /* transform: translateY(-5px); */
+  transform: translateY(-5px);
+}
+.event-image {
+  width: 100%;
+  height: 250px;
+  /* border: 1px solid gray; */
+}
+
+.event-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 
@@ -63,7 +75,7 @@ background-color: var(--color-light); */
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 20px;
+    border-radius: 8px;
   }
 
 }
