@@ -1,17 +1,15 @@
 import React from "react";
 import Header from "../components/Header";
 import ScheduleTable from "../components/ScheduleTable";
-import ScheduleCalendar from "../components/ScheduleCalendar";
 import Countdown from "../components/Countdown";
-import Testimony from "../components/Testimony";
+import EventCard from "../components/event/EventCard";
 
 const Home = () => {
   return (
     <>
       <Countdown />
-      <section
-        className="program-section"
-      >
+      <section className="program-section">
+        <EventCard />
         {/* <Testimony/> */}
         <ScheduleTable />
       </section>

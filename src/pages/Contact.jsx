@@ -2,8 +2,38 @@ import React from "react";
 import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa";
 import Header from "../components/Header";
 import background from "../assets/nir-himi-lfXq-zbF-RU-unsplash.jpg";
+import emailjs from "@emailjs/browser";
+import { useRef, useState } from "react";
+import { toast } from "react-toastify";
 
 const Home = () => {
+  const form = useRef();
+  const [loading, setLoading] = useState(false);
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_mk30zpf",
+        "template_m50r6zl",
+        form.current,
+        "ZVo9AeFHkfR9kFQkx"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          setLoading(false);
+          toast.success("✅ Message sent successfully!");
+          form.current.reset();
+        },
+        (error) => {
+          console.log(error.text);
+          setLoading(false);
+          toast.error("❌ Failed to send message. Please try again.");
+        }
+      );
+  };
   return (
     <>
       <Header
@@ -14,31 +44,45 @@ const Home = () => {
 
       <section className="contact">
         <div className="contact-container">
-          {/* <div className="contact-info">
-            <ul>
-              <li>
-                <strong>Church Name:</strong> The Apostolic Church Nigeria –
-                Yaba District
-              </li>
-              <li>
-                <strong>Address:</strong> 22 Adebisi street, Alagomeji, Yaba,
-                Lagos, Nigeria
-              </li>
-              <li>
-                <strong>Email:</strong> tacnyabaassembly@gmail.com
-              </li>
-              <li>
-                <strong>Phone:</strong> +234 815 420 0609
-              </li>
-            </ul>
-          </div> */}
-
-          <form className="contact-form">
+          <form ref={form} className="contact-form" onSubmit={sendEmail}>
             <h3>Send a Message</h3>
-            <input type="text" placeholder="Full Name" required />
-            <input type="email" placeholder="Email Address" required />
-            <textarea rows="5" placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
+
+            <input
+              type="text"
+              name="name" // matches {{name}}
+              placeholder="Full Name"
+              required
+            />
+
+            <input
+              type="email"
+              name="email" // matches {{email}}
+              placeholder="Email Address"
+              required
+            />
+
+            <input
+              type="text"
+              name="title" // matches {{title}} in Subject line
+              placeholder="Message Title"
+            />
+
+            <textarea
+              name="message" // matches {{message}}
+              rows="5"
+              placeholder="Your Message"
+              required
+            ></textarea>
+
+            <button type="submit" disabled={loading}>
+              {loading ? (
+                <>
+                  Sending <span className="spinner"></span>
+                </>
+              ) : (
+                "Send Message"
+              )}
+            </button>
           </form>
         </div>
 

@@ -16,7 +16,7 @@
   text-align: center;
   width: 100%;
   padding: 15px;
-  animation: fadeSlideUp 1s ease-out forwards;
+  /* animation: fadeSlideUp 1s ease-out forwards; */
 }
 
 .header h1 {

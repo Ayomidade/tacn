@@ -20,10 +20,10 @@ const Hero = () => {
       }
     };
 
-    document.addEventListener("mousedown", handleClickOutside);
+    document.addEventListener("mouseout", handleClickOutside);
 
     return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
+      document.removeEventListener("mouseout", handleClickOutside);
     };
   }, [showWorship]);
 

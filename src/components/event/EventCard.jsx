@@ -1,22 +1,48 @@
 import React from "react";
-import "./eventCard.css";
+import "./event.css";
+import data from "./events.json";
+import {
+  FaCalendar,
+  FaClock,
+  FaInfo,
+  FaLocationArrow,
+  FaTimes,
+} from "react-icons/fa";
+import { FaLocationDot } from "react-icons/fa6";
+import eventImage from "/src/assets/YABA YOUTH.png.jpg";
 
 const EventCard = () => {
   return (
     <>
-      <div className="event-card">
-        <div className="event-image">
-          <img src="" alt="Event" />
-        </div>
-        <div className="event-details">
-          <h3>Event Title</h3>
-          <p>Date: MM/DD/YYYY</p>
-          <p>Location: Event Location</p>
-          <p>
-            Description: Brief description of the event goes here. It provides
-            an overview of what to expect.
-          </p>
-        </div>
+      <div className="events">
+        {data.map(({ id, image, title, date, location, description, time }) => (
+          <div className="event-card" key={id}>
+            <div className="event-image">
+              <img src={eventImage} alt={title} />
+            </div>
+            <div className="event-details">
+              <h3>{title}</h3>
+              <div>
+                <p>
+                  <span>
+                    <FaCalendar /> {date}
+                  </span>
+                </p>
+                <p>
+                  <FaClock /> {time}
+                </p>
+              </div>
+              <p >
+                <FaLocationDot />
+                {location}
+              </p>
+              <p style={{ marginTop: "5px" }}>
+                {/* <FaInfo /> */}
+                {description}
+              </p>
+            </div>
+          </div>
+        ))}
       </div>
     </>
   );

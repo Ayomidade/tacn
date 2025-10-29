@@ -1,23 +1,38 @@
 [
   {
+    "id": "1",
     "image": "/images/event1.jpg",
-    "title": "Annual Tech Conference",
+    "title": "Professional and Business Branding Talk",
     "date": "2025-11-20",
-    "location": "New York, NY",
-    "description": "Join us for a day of insightful talks and networking with industry leaders in technology."
+    "location": "Church Auditorium",
+    "time": "5:00 PM",
+    "description": "Shine for Christ in your career and build a purpose-driven brand that reflects excellence. Don’t miss this chance to grow and glow!"
   },
   {
+    "id": "2",
     "image": "/images/event2.jpg",
-    "title": "Marketing Summit 2025",
+    "title": "Praise Night",
     "date": "2025-11-21",
-    "location": "San Francisco, CA",
-    "description": "A gathering of marketing professionals to discuss the latest trends and strategies in the field."
+    "location": "Church Auditorium",
+    "time": "9:00 PM",
+    "description": "A powerful night of worship, dance, and thanksgiving to God. Come ready to praise—bring your friends along!"
   },
   {
+    "id": "3",
     "image": "/images/event3.jpg",
-    "title": "Healthcare Innovations Expo",
+    "title": "Diving Deep into the Word of God",
     "date": "2025-11-22",
-    "location": "Chicago, IL",
-    "description": "Explore the latest innovations in healthcare technology and services at this annual expo."
+    "location": "Church Auditorium",
+    "time": "10:00 AM",
+    "description": "A day filled with blessings, from diving deep and explaining the mysteries in the word of God to having a personal time with God. You really don't want to miss this!"
+  },
+  {
+    "id": "4",
+    "image": "/images/event4.jpg",
+    "title": "Thanksgiving Sunday",
+    "date": "2025-11-23",
+    "location": "Church Auditorium",
+    "time": "9:00 AM",
+    "description": "Celebrate God’s faithfulness and goodness throughout the year. Come with your joy, your praise, and your friends!"
   }
 ]

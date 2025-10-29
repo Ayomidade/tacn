@@ -40,9 +40,9 @@ const Navbar = () => {
     };
   }, []);
 
-    const { scrollToTop } = useScroll();
+  const { scrollToTop } = useScroll();
   const handleNavClick = () => {
-scrollToTop()
+    scrollToTop();
     setMenuOpen(false);
   };
 
