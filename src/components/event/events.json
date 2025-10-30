@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "image": "public/YABA YOUTH.png.jpg",
+    "image": "/YABA YOUTH.png.jpg",
     "title": "Professional and Business Branding Talk",
     "date": "2025-11-20",
     "location": "Church Auditorium",
@@ -10,7 +10,7 @@
   },
   {
     "id": "2",
-    "image": "public/YABA YOUTH.png.jpg",
+    "image": "/YABA YOUTH.png.jpg",
     "title": "Praise Night",
     "date": "2025-11-21",
     "location": "Church Auditorium",
@@ -19,7 +19,7 @@
   },
   {
     "id": "3",
-    "image": "public/IMG_4535.PNG",
+    "image": "/IMG_4535.PNG",
     "title": "Diving Deep into the Word of God",
     "date": "2025-11-22",
     "location": "Church Auditorium",
@@ -28,7 +28,7 @@
   },
   {
     "id": "4",
-    "image": "public/IMG_4535.PNG",
+    "image": "/IMG_4535.PNG",
     "title": "Thanksgiving Sunday",
     "date": "2025-11-23",
     "location": "Church Auditorium",
