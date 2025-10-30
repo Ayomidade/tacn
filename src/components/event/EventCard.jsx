@@ -19,7 +19,7 @@ const EventCard = () => {
         {data.map(({ id, image, title, date, location, description, time }) => (
           <div className="event-card" key={id}>
             <div className="event-image">
-              <img src={eventImage} alt={title} />
+              <img src={image} alt={title} />
             </div>
             <div className="event-details">
               <h3>{title}</h3>

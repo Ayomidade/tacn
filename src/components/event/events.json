@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "image": "/images/event1.jpg",
+    "image": "/src/assets/YABA YOUTH.png.jpg",
     "title": "Professional and Business Branding Talk",
     "date": "2025-11-20",
     "location": "Church Auditorium",
@@ -10,7 +10,7 @@
   },
   {
     "id": "2",
-    "image": "/images/event2.jpg",
+    "image": "/src/assets/YABA YOUTH.png.jpg",
     "title": "Praise Night",
     "date": "2025-11-21",
     "location": "Church Auditorium",
