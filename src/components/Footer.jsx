@@ -39,7 +39,7 @@ const Footer = () => {
           <div className="footer-contact">
             <h4>Contact Us</h4>
             <p>22 Adebisi street, Alagomeji, Yaba, Lagos, Nigeria</p>
-            <p>Email: tacnyabaassembly@gmail.com</p>
+            <p>Email: tacnyabadistrict@gmail.com</p>
             <p>Phone: +234 803 305 3188</p>
             <div className="footer-socials">
               <a

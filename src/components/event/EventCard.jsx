@@ -10,6 +10,7 @@ import {
 } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import eventImage from "/src/assets/YABA YOUTH.png.jpg";
+import graphic from "/src/assets/IMG_4535.PNG";
 
 const EventCard = () => {
   return (
@@ -32,7 +33,7 @@ const EventCard = () => {
                   <FaClock /> {time}
                 </p>
               </div>
-              <p >
+              <p>
                 <FaLocationDot />
                 {location}
               </p>

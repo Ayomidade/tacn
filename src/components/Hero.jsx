@@ -79,7 +79,7 @@ const Hero = () => {
         <div className="hero-info">
           <p>
             📍 22 Adebisi Street, Alagomeji, Yaba, Lagos
-            <br /> 🕒 Sundays: 8AM | Wednesdays: 6PM
+            <br /> 🕒 Sundays: 7AM & 9AM | Wednesdays: 6PM
           </p>
         </div>
       </div>

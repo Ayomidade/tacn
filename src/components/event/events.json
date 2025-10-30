@@ -19,7 +19,7 @@
   },
   {
     "id": "3",
-    "image": "/images/event3.jpg",
+    "image": "/src/assets/IMG_4535.PNG",
     "title": "Diving Deep into the Word of God",
     "date": "2025-11-22",
     "location": "Church Auditorium",
@@ -28,7 +28,7 @@
   },
   {
     "id": "4",
-    "image": "/images/event4.jpg",
+    "image": "/src/assets/IMG_4535.PNG",
     "title": "Thanksgiving Sunday",
     "date": "2025-11-23",
     "location": "Church Auditorium",
