@@ -23,11 +23,20 @@ const EventCard = () => {
             </div>
             <div className="event-details">
               <h3>{title}</h3>
-              <div>
+              <div
+                style={{
+                  display: "flex",
+                  // justifyContent: "space-between",
+                  alignItems: "center",
+                  margin: "0px",
+                  gap:"25px"
+                }}
+              >
                 <p>
                   <span>
-                    <FaCalendar /> {date}
+                    <FaCalendar />
                   </span>
+                  {date}
                 </p>
                 <p>
                   <FaClock /> {time}

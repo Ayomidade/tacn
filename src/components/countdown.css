@@ -22,7 +22,7 @@
 .program-tagline {
   font-size: 19px;
   color: var(--color-bg);
-  margin-bottom: 32px;
+  margin-bottom: 32px;  
 }
 
 .program-tagline.bottom {
