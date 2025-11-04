@@ -46,6 +46,7 @@ const Footer = () => {
                 href="https://www.facebook.com/TACNYABADISTRICT"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="facebook"
               >
                 <FaFacebookF />
               </a>
@@ -53,6 +54,7 @@ const Footer = () => {
                 href="https://www.instagram.com/tacnyabadistrictpr?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="instagram"
               >
                 <FaInstagram />
               </a>
@@ -60,6 +62,7 @@ const Footer = () => {
                 href="https://www.youtube.com/@tacnyabadistrictpr"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="youtube"
               >
                 <FaYoutube />
               </a>
