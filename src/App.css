@@ -353,7 +353,7 @@ button[disabled] {
     position: absolute;
     top: 60px;
     right: 0;
-    background-color: rgba(0, 11, 41, 0.5);
+    background-color: rgba(0, 11, 41, 0.904);
     flex-direction: column;
     /* width: 100%; */
     display: none;

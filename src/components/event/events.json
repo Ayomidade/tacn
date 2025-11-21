@@ -6,7 +6,9 @@
     "date": "2025-11-20",
     "location": "22, Adebisi street, Alagomeji, Yaba, Lagos",
     "time": "5:00 PM",
-    "description": "Join us for an insightful talk on Professional and Business Branding. Learn how to effectively brand yourself and your business to stand out in today's competitive market. Don't miss this opportunity to gain valuable knowledge and network with like-minded individuals!"
+    "description": "Join us for an insightful talk on Professional and Business Branding. Learn how to effectively brand yourself and your business to stand out in today's competitive market. Don't miss this opportunity to gain valuable knowledge and network with like-minded individuals!",
+    "speaker": "Queen Olugbuyiro",
+    "replayLink": "https://www.youtube.com/live/1WpaVJaGgq8?si=dcCLRplFx5MhRdpx"
   },
   {
     "id": "2",
@@ -15,7 +17,8 @@
     "date": "2025-11-21",
     "location": "22, Adebisi street, Alagomeji, Yaba, Lagos",
     "time": "9:00 PM",
-    "description": "Join us for an electrifying Praise Night filled with uplifting worship, soul-stirring music, and a powerful atmosphere of praise. Let’s come together to celebrate and honor God through song and joy!"
+    "description": "Join us for an electrifying Praise Night filled with uplifting worship, soul-stirring music, and a powerful atmosphere of praise. Let’s come together to celebrate and honor God through song and joy!",
+    "replayLink": ""
   },
   {
     "id": "3",
@@ -24,7 +27,8 @@
     "date": "2025-11-22",
     "location": "22, Adebisi street, Alagomeji, Yaba, Lagos",
     "time": "10:00 AM",
-    "description": "Experience a transformative time of intimate fellowship with God through His Word and prayer. Let’s seek His presence together. You don’t want to miss this!"
+    "description": "Experience a transformative time of intimate fellowship with God through His Word and prayer. Let’s seek His presence together. You don’t want to miss this!",
+    "replayLink": ""
   },
   {
     "id": "4",
@@ -33,6 +37,7 @@
     "date": "2025-11-23",
     "location": "22, Adebisi street, Alagomeji, Yaba, Lagos",
     "time": "9:00 AM",
-    "description": "Join us for a powerful service of prophetic declarations and heartfelt thanksgiving. Let's come together to celebrate God's faithfulness and receive His promises for the future. Be part of this uplifting experience!"
+    "description": "Join us for a powerful service of prophetic declarations and heartfelt thanksgiving. Let's come together to celebrate God's faithfulness and receive His promises for the future. Be part of this uplifting experience!",
+    "replayLink": ""
   }
 ]

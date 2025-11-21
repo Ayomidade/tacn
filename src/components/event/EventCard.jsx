@@ -16,7 +16,7 @@ const EventCard = () => {
   return (
     <>
       <div className="events">
-        {data.map(({ id, image, title, date, location, description, time }) => (
+        {data.map(({ id, image, title, date, location, description, time, replayLink }) => (
           <div className="event-card" key={id}>
             <div className="event-image">
               <img src={image} alt={title} />
@@ -29,7 +29,7 @@ const EventCard = () => {
                   // justifyContent: "space-between",
                   alignItems: "center",
                   margin: "0px",
-                  gap:"25px"
+                  gap: "25px",
                 }}
               >
                 <p>
@@ -50,6 +50,27 @@ const EventCard = () => {
                 {/* <FaInfo /> */}
                 {description}
               </p>
+            </div>
+            <div className="event-replay-box">
+              <p>Did you missed the session?</p>
+              <a
+                href= {replayLink}
+                target="_blank"
+                rel="noreferrer"
+                className="event-replay-btn"
+              >
+                Watch Replay
+              </a>
+              {/* <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/1WpaVJaGgq8?si=dcCLRplFx5MhRdpx"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe> */}
             </div>
           </div>
         ))}
