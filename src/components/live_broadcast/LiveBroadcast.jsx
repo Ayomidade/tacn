@@ -56,13 +56,14 @@ const LiveBroadcast = () => {
       {/* Main Content */}
       {isLive ? (
         <div className="video-container">
-          <iframe
+        {*  <iframe
             src="https://www.facebook.com/TACNYABADISTRICT/videos/25529914879946679/?mibextid=rS40aB7S9Ucbxw6v"
             title="Live Stream"
             frameBorder="0"
             allow="autoplay; encrypted-media"
             allowFullScreen
-          ></iframe>
+          ></iframe> *} 
+<video src="https://www.facebook.com/TACNYABADISTRICT/videos/25529914879946679/?mibextid=rS40aB7S9Ucbxw6v" ></video>
         </div>
       ) : (
         <div className="countdown-section">
