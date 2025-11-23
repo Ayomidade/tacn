@@ -18,7 +18,7 @@ const LiveBroadcast = () => {
 
         if (diff <= 0) {
           clearInterval(interval);
-          setIsLive(true)
+          // setIsLive(true)
         } else {
           const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
           const minutes = Math.floor((diff / (1000 * 60)) % 60);
@@ -29,7 +29,7 @@ const LiveBroadcast = () => {
       }, 1000);
 
       return () => clearInterval(interval);
-    }
+    }  
   }, [isLive]);
 
   // console.log(timeLeft);
@@ -89,7 +89,7 @@ const LiveBroadcast = () => {
           <div className="replay-box">
             <p>Missed the last session?</p>
             <a
-              href="https://www.youtube.com/live/1WpaVJaGgq8?si=dcCLRplFx5MhRdpx"
+              href="https://www.youtube.com/live/QEnLy4luLdI?si=gHDZOKKPQgW5hStY"
               target="_blank"
               rel="noreferrer"
               className="replay-btn"
