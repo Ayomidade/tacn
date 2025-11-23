@@ -89,7 +89,7 @@ const LiveBroadcast = () => {
           <div className="replay-box">
             <p>Missed the last session?</p>
             <a
-              href="https://www.youtube.com/live/QEnLy4luLdI?si=gHDZOKKPQgW5hStY"
+              href="https://www.youtube.com/live/1WpaVJaGgq8?si=dcCLRplFx5MhRdpx"
               target="_blank"
               rel="noreferrer"
               className="replay-btn"
