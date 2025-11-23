@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./live.css";
+import ProgramCompleted from "./ProgramCompleted";
 
 const LiveBroadcast = () => {
   const [isLive, setIsLive] = useState(false);
@@ -37,7 +38,7 @@ const LiveBroadcast = () => {
   return (
     <section className="broadcast-wrapper">
       {/* Status Section */}
-      <div className="broadcast-header">
+      {/* <div className="broadcast-header">
         {isLive ? (
           <div className="live-status">
             <span className="live-dot"></span>
@@ -51,7 +52,7 @@ const LiveBroadcast = () => {
             </p>
           </div>
         )}
-      </div>
+      </div> */}
 
       {/* Main Content */}
       {isLive ? (
@@ -65,39 +66,13 @@ const LiveBroadcast = () => {
           ></iframe>
         </div>
       ) : (
-        <div className="countdown-section">
-          <p className="countdown-title">Next Session Begins In</p>
-
-          <div className="countdown-box">
-            <div className="count-item">
-              <span>{timeLeft.hours}</span>
-              <small>Hours</small>
-            </div>
-
-            <div className="count-item">
-              <span>{timeLeft.minutes}</span>
-              <small>Minutes</small>
-            </div>
-
-            <div className="count-item">
-              <span>{timeLeft.seconds}</span>
-              <small>Seconds</small>
-            </div>
-          </div>
-
-          {/* Replay Section */}
-          <div className="replay-box">
-            <p>Missed the last session?</p>
-            <a
-              href="https://www.youtube.com/live/1WpaVJaGgq8?si=dcCLRplFx5MhRdpx"
-              target="_blank"
-              rel="noreferrer"
-              className="replay-btn"
-            >
-              Watch Replay
-            </a>
-          </div>
-        </div>
+        <ProgramCompleted
+          programName="November To Remember 2025"
+          // nextProgram={{
+          //   name: "Christmas Carol Service",
+          //   date: "December 22nd, 2025 — 5:00 PM",
+          // }}
+        />
       )}
     </section>
   );
