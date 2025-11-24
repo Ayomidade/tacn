@@ -9,7 +9,7 @@ const Home = () => {
     <>
       <Hero />
       {/* <EventHighlight /> */}
-      <EventHighlight/>
+     {/* <EventHighlight/> */} 
       {/* <Countdown /> */}
       <About />
     </>
